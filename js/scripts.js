@@ -10,7 +10,7 @@ $(document).ready(function(){
     const biggieLine = $("#biggieLine").val();
     const cocktails =$("#cocktails").val();
 
-    if (sock === "underArmour" && utensil === "toothpick" && cocktails === "manhattan" ) {
+    if (sock === "underArmour" && cocktails === "manhattan" ) {
       $("#javaScript").hide();
       $("#ruby").hide();
       $("#python").show();
@@ -26,7 +26,7 @@ $(document).ready(function(){
       $("#javaScript").hide();
       $("#ruby").show();
       $("#python").hide();
-    } else if (places === "nebraska" && biggieLine === "line2" && cocktails === "manhattan" && sock === "underArmour") {
+    } else if (biggieLine === "line2" && sock === "underArmour" && places === "nebraska" && utensil === "toothpick" ) {
       $("#javaScript").hide();
       $("#ruby").hide();
       $("#python").show();
