@@ -1,6 +1,6 @@
 # Prgramming Language Selector
 
-### By **Caitlyn Mitchell
+### By: Caitlyn Mitchell
 
 ## Description
 
