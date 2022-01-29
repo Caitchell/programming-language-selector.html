@@ -8,52 +8,82 @@
   <title>Programming Language Selector</title>
 </head>
 <body>
-<div class="container">
-  <strong> <h1>Programming Language Selector</h1> </strong> 
-</div>
+  <div class="container">
+    <strong> <h1>Programming Language Selector</h1> </strong> 
+    <form id="langSelector">
 
-<div class="container">
-  <form id="langSelector">
-    <p>Which brand of socks would you buy from the selection below?</p>
-
+<div class="card">
+  <div class="card-body">
+    <h4>Which brand of socks would you buy from the selection below?</h4>
     <select class="form-control" id="sock">
       <option value = "nike">Nike</option>
       <option value = "goldToe">Gold Toe</option>
       <option value = "underArmour">Under Armour</option>
     </select>
-
-    <p>If you could only use one utensil to eat for the rest of your life, which one would you choose?</p>
+  </div>
+</div>
+<div class="card">
+  <div class="card-body">
+    <h4>If you could only use one utensil to eat for the rest of your life, which one would you choose?</h4>
 
     <select class="form-control" id="utensil">
       <option value="chopsticks">Chopsticks</option>
       <option value="spoon">spoon</option>
       <option value="toothpick">Toothpick</option>
     </select>
-
-    <p>If you had to move to one of these 3 places, which would you choose??</p>
+  </div>
+</div>
+<div class="card">
+  <div class="card-body">
+    <h4>If you had to move to one of these 3 places, which would you choose??</h4>
 
     <select class="form-control" id="places">
       <option value="nebraska">Omaha, Nebraska!</option>
       <option value="texas">Austin, Texas!</option>
       <option value="florida">Tampa, Florida!</option>
     </select>
-
-    <input type="submit" value="Submit Quiz">
-  </form>
+  </div>
 </div>
+<div class="card">
+  <div class="card-body">
+    <h4>What's your favorite Biggis Smalls line?</h4>
 
-<p id="result">Check this out <span id="inputName"></span>, the language you should learn first is..</p>
-<div id="javaScript" class="languages">
-  <h1>JavaScript!</h1>
+    <select class="form-control" id="biggieLine">
+      <option value="juicy1">'Birthdays was the worst days, now we sip champange when we thirsty.'</option>
+      <option value="juicy2">'Right I like the life I live, because I went from negative to positive.'</option>
+      <option value="juicy3">'Super Nintendo Sega Geneis, when I was dead broke, man I couldn't picture this.'</option>
+    </select>
+  </div>
 </div>
+<div class="card">
+  <div class="card-body">
+    <h4>If you were a cocktail which one would you be?</h4>
 
-<div id="ruby" class="languages">
-  <h1>Ruby!</h1>
+    <select class="form-control" id="cocktails">
+      <option value="manhattan">Manhattan</option>
+      <option value="moscowMule">Moscow Mule</option>
+      <option value="champagne">Champange</option>
+    </select>
+  </div>
 </div>
+<div class="jumbotron">
+  <div class="card">
+      <input type="submit" value="Submit Selector"> 
+    </div>
+    
+    <div id="javaScript" class="languages">
+      <h1>JavaScript!</h1>
+    </div>
 
-<div id="python" class="languages">
-  <h1>Python!</h1>
+    <div id="ruby" class="languages">
+      <h1>Ruby!</h1>
+    </div>
+
+    <div id="python" class="languages">
+      <h1>Python!</h1>
+    </div>
+  </div>
+</form>
 </div>
-
 </body>
 </html>
