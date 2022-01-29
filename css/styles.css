@@ -28,12 +28,12 @@ select {
   text-align: center;
 }
 
-body {
-  background-color: rgb(174, 182, 128)
-}
-
 .cardSubmit {
   text-align: center;
+  margin: bottom 20px;
+}
+.card-body{ 
+  margin: bottom 20px;
 }
 
 #sButton {
