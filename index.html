@@ -14,71 +14,44 @@
 
 <div class="container">
   <form id="langSelector">
-    <label for="name">Please enter your name here:</label>
-    <input id="name" class="form-control" type="text">
-    <p id=nameAlert>Please enter your name here!</p>
+    <p>Which brand of socks would you buy from the selection below?</p>
 
-    <label for="question1" class="question">Which brand of socks would you purchase?</label>
-    <div class="radio">
-      <label>
-        <input type="radio" name="sock" value="nike" checked>Nike</label>
-    </div>
-    <div class="radio">
-      <label>
-        <input type="radio" name="sock" value="gold">Gold Toe</label>
-    </div>
-    <div class="radio">
-      <label>
-      <input type="radio" name="sock" value="armour">Under Armour</label>
-    </div>
+    <select class="form-control" id="sock">
+      <option value = "nike">Nike</option>
+      <option value = "goldToe">Gold Toe</option>
+      <option value = "underArmour">Under Armour</option>
+    </select>
 
+    <p>If you could only use one utensil to eat for the rest of your life, which one would you choose?</p>
 
-    <label for="question2" class="question">If you could only have one utensil to eat with for the rest of your life, which one would you choose?</label>
-    <div class="radio">
-      <label>
-        <input type="radio" name="utensil" value="chopsticks" checked>Chopsticks</label>
-    </div>
-    <div class="radio">
-      <label>
-        <input type="radio" name="utensil" value="spoon">A Spoon</label>
-    </div>
-    <div class="radio">
-      <label>
-        <input type="radio" name="utensil" value="toothpick">Toothpick</label>
-    </div>
+    <select class="form-control" id="utensil">
+      <option value="chopsticks">Chopsticks</option>
+      <option value="spoon">spoon</option>
+      <option value="toothpick">Toothpick</option>
+    </select>
 
+    <p>If you had to move to one of these 3 places, which would you choose??</p>
 
-    <label for="question3" class="question">Out of these 3 places where would you choose to live?</label>
-    <div class="radio">
-      <label>
-        <input type="radio" name="placs" value="texas" checked>Austin, Texas</label>
-    </div>
+    <select class="form-control" id="places">
+      <option value="nebraska">Omaha, Nebraska!</option>
+      <option value="texas">Austin, Texas!</option>
+      <option value="florida">Tampa, Florida!</option>
+    </select>
 
-    <div class="radio">
-      <label>
-        <input type="radio" name="places" value="nebraska">Omaha, Nebraska.</label>
-    </div>
-
-    <div class="radio">
-      <label>
-        <input type="radio" name="places" value="florida">Naples, Florida</label>
-    </div>
-  
-
-    <button type="submit" class="btn-submit">What's my language?!</button>
+    <input type="submit" value="Submit Quiz">
   </form>
 </div>
 
 <p id="result">Check this out <span id="inputName"></span>, the language you should learn first is..</p>
-<div id="javaScript">
+<div id="javaScript" class="languages">
   <h1>JavaScript!</h1>
 </div>
 
-<div id="ruby">
+<div id="ruby" class="languages">
   <h1>Ruby!</h1>
 </div>
 
-<div id="python">
+<div id="python" class="languages">
   <h1>Python!</h1>
 </div>
 
