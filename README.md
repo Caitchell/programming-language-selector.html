@@ -17,7 +17,7 @@
 * jQuery
 
 ## Setup/Installation
-* https.//caitchell/programming-language-selector.html/blob/main/index.html/
+* [Link to my hosted site](https://github.com/Caitchell/programming-language-selector.html)
 * Clone or Download repository to your desktop.
 * Navigate to project folder.
 * Open index.html in your browser window.
