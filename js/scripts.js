@@ -2,39 +2,38 @@
 
 $(document).ready(function(){
   $("form#langSelector").submit(function() {
-  
+    event.preventDefault();
+
     const sock = $("#sock").val();
     const utensil = $("#utensil").val();
     const places = $("#places").val();
     const biggieLine = $("#biggieLine").val();
     const cocktails =$("#cocktails").val();
 
-    if (sock === "goldToe" && utensil === "toothpick" && places === "nebraska") {
-      $("#javaScript").show();
-      $("#ruby").hide();
-      $("#python").hide();
-    } else if (places === "texas" && utensil === "chopsticks" && biggieLine === "juicy3") {
-      $("#javaScript").hide();
-      $("#ruby").show();
-      $("#python").hide();
-    } else if (places === "florida" && biggieLine === "juicy1" && cocktails === "champagne") {
+    if (sock === "underArmour" && utensil === "toothpick" && cocktails === "manhattan" ) {
       $("#javaScript").hide();
       $("#ruby").hide();
       $("#python").show();
-    } else if (places === "texas" && biggieLine === "juicy3" && cocktails === "moscowMule") {
+    } else if (places === "florida" && utensil === "chopsticks" && biggieLine === "line3") {
       $("#javaScript").hide();
       $("#ruby").show();
       $("#python").hide();
-    } else if (places === "nebraska" && biggieLine === "juicy2" && cocktails === "manhattan") {
+    } else if (places === "florida" && biggieLine === "line1" && cocktails === "champagne" && sock === "nike" && utensil === "spoon") {
+      $("#javaScript").show();
+      $("#ruby").hide();
+      $("#python").hide();
+    } else if (places === "texas" && biggieLine === "line3" && cocktails === "moscowMule" && utensil === "chopsticks") {
+      $("#javaScript").hide();
+      $("#ruby").show();
+      $("#python").hide();
+    } else if (places === "nebraska" && biggieLine === "line2" && cocktails === "manhattan" && sock === "underArmour") {
       $("#javaScript").hide();
       $("#ruby").hide();
       $("#python").show();
     } else { 
-      $("#javaScript").show();
+      $("#javaScript").hide();
       $("#ruby").hide();
-      $("#python").hide();
-    }
-
-  event.preventDefault();
+      $("#python").show();
+    };
   });
 });
