@@ -14,26 +14,26 @@ $(document).ready(function(){
       $("#javaScript").hide();
       $("#ruby").hide();
       $("#python").slideToggle();
-    } else if (places === "florida" && utensil === "chopsticks" && biggieLine === "line3") {
+    } else if (places === "texas" && utensil === "chopsticks" && biggieLine === "line3") {
       $("#javaScript").hide();
-      $("#ruby").slideToggle();
+      $("#ruby").fadeToggle();
       $("#python").hide();
     } else if (places === "florida" && biggieLine === "line1" && cocktails === "champagne" && sock === "nike" && utensil === "spoon") {
       $("#javaScript").slideToggle();
       $("#ruby").hide();
       $("#python").hide();
-    } else if (places === "texas" && biggieLine === "line3" && cocktails === "moscowMule" && utensil === "chopsticks") {
+    } else if (places === "texas" && biggieLine === "line3" && cocktails === "moscowMule") {
       $("#javaScript").hide();
-      $("#ruby").slideToggle();
+      $("#ruby").fadeToggle();
       $("#python").hide();
     } else if (biggieLine === "line2" && sock === "underArmour" && places === "nebraska" && utensil === "toothpick" ) {
       $("#javaScript").hide();
       $("#ruby").hide();
       $("#python").slideToggle();
     } else { 
-      $("#javaScript").hide();
-      $("#ruby").hide();
-      $("#python").slidetoggle();
+      $("#javaScript").slideToggle();
+      $("#ruby").fadeToggle();
+      $("#python").hide();
     };
   });
 });
