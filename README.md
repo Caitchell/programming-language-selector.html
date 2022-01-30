@@ -4,7 +4,7 @@
 
 ## Description
 
-#### _This is my Programming Language Selector webpage. It was built to help future programmers decide which language they would like to learn, using answers from multiple, multiple-choice questions to tell you which language should best suit you.
+#### This is my Programming Language Selector webpage. It was built to help future programmers decide which language they would like to learn, using answers from multiple, multiple-choice questions to tell you which language should best suit you.
 
 ## Technologies Used
 
