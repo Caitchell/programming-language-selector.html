@@ -17,7 +17,7 @@
 * jQuery
 
 ## Setup/Installation
-* [Link to my hosted site](file:///Users/Caitlynmitchel/Desktop/programming-language-selector/index.html)
+* [Link to my hosted site](https://Users/Caitlynmitchel/Desktop/programming-language-selector/index.html)
 * Clone or Download repository to your desktop.
 * Navigate to project folder.
 * Open index.html in your browser window.
