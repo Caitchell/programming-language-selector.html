@@ -32,7 +32,7 @@ $(document).ready(function(){
       $("#python").slideToggle();
     } else { 
       $("#javaScript").slideToggle();
-      $("#ruby").fadeToggle();
+      $("#ruby").hidee();
       $("#python").hide();
     };
   });
